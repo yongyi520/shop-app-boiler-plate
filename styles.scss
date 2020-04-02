@@ -1,0 +1,46 @@
+.setting-enable-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  .setting-label {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+}
+
+.shepherd-has-title {
+  .shepherd-content {
+    // min-width: 400px;
+    .shepherd-header {
+      background-color: whitesmoke !important;
+      padding: 15px !important;
+      .shepherd-cancel-icon {
+        margin-top: -2px;
+      }
+      .shepherd-title {
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+    }
+    .shepherd-text {
+      padding: 15px;
+      font-size: 1.5rem;
+      min-height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      p {
+        margin-bottom: 20px;
+      }
+    }
+    .shepherd-footer {
+      display: flex;
+      flex-direction: row;
+      height: 40px;
+      .button-flex {
+        flex: 1;
+      }
+    }
+  }
+}
